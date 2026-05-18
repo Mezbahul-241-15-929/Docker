@@ -1,7 +1,7 @@
 FROM node
 
-ENV MONGO_DB_USERNAME=admin \
-    MONDO_DB_PWD=qwerty
+ENV MONGO_DB_USERNAME=admin
+ENV MONGO_DB_PWD=qwerty
 
 RUN mkdir -p docker-testapp-main
 

@@ -9,6 +9,9 @@ services:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: qwerty
 
+    volumes:
+    - "C:/Users/Mezbahul/Desktop/Docker/docker-testapp-main/Mongodb-Data:/data/db"
+
   mongo-express:
     image: mongo-express
     ports:
